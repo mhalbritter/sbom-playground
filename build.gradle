@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.3.0-SNAPSHOT'
+    id 'io.spring.dependency-management' version '1.1.4'
+    id 'org.spdx.sbom' version '0.5.0'
+    id 'org.cyclonedx.bom' version '1.8.1'
+}
+
+group = 'org.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    // mavenLocal()
+    mavenCentral()
+    maven { url 'https://repo.spring.io/milestone' }
+    maven { url 'https://repo.spring.io/snapshot' }
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+spdxSbom {
+    targets {
+        create("application") {
+        }
+    }
+}
+
+tasks.named("bootJar") {
+    dependsOn("spdxSbom", "cyclonedxBom")
+    from("build/spdx") {
+        include "*.spdx.json" into "BOOT-INF/classes"
+    }
+    from("build/cyclonedx") {
+        include "bom.json" into "BOOT-INF/classes"
+    }
+}
+
+cyclonedxBom {
+    includeLicenseText = false
+    destination = file("build/cyclonedx")
+    outputFormat = "json"
+}

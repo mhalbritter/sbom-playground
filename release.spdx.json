@@ -1,0 +1,1448 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2024-01-12T08:32:40Z",
+    "creators": [
+      "Tool: spdx-gradle-plugin"
+    ]
+  },
+  "name": "sbom-playground",
+  "dataLicense": "CC0-1.0",
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-gnrtd0",
+      "extractedText": "GNU Lesser General Public License",
+      "name": "GNU Lesser General Public License",
+      "seeAlsos": [
+        "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+      ]
+    },
+    {
+      "licenseId": "LicenseRef-gnrtd1",
+      "extractedText": "Public Domain, per Creative Commons CC0",
+      "name": "Public Domain, per Creative Commons CC0",
+      "seeAlsos": [
+        "http://creativecommons.org/publicdomain/zero/1.0/"
+      ]
+    }
+  ],
+  "documentNamespace": "https://example.com/UUID",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-gnrtd0",
+      "copyrightText": "NOASSERTION",
+      "description": "",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [],
+      "name": "sbom-playground",
+      "sourceInfo": "git+<no-scm-uri>@<no-scm-revision>#sbom-playground[:]",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.0.1-SNAPSHOT"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca17ff67e80a230f04d40d73321d623b769e361d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "31c28021755feab49cc9310a8353382b3ca35d0adf02926b83e4c44ea4942898"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.2.1/spring-boot-starter-actuator-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-starter-actuator:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a25f2f4172c34f46b73fff03293370c3daf231a1db2883ef8032aa471779fb8b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bc03d7075fb9d9d4877218db48d5dae3dd72a65d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.2.1/spring-boot-starter-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-starter:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6fde604399114e77b12519b3d117117c607cb73b89a88800856fb0e0cc82ea7a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "faa2ce019bee68a8d17529d0a08ebc427f927e13"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.2.1/spring-boot-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8e3f7378e98c26500bdb5ecd6865778f57a22787eb2f11b9bd5fb8e438a0c631"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e43c71a9eaca454654621f7d272f15b53c68d583"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.1.2/spring-core-6.1.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@6.1.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework:spring-core:6.1.2",
+      "supplier": "Organization: Spring IO",
+      "versionInfo": "6.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb9ebadb1581f0fe598216f7cf032a3b44a84c96de06ffa8d6f41bcc47305134"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "285eb725861c9eacf2a3e4965d4e897932e335ea"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.1.2/spring-jcl-6.1.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-jcl@6.1.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework:spring-jcl:6.1.2",
+      "supplier": "Organization: Spring IO",
+      "versionInfo": "6.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "af22a435469956415bbee873de6c05995ef12f2d29622abf510a94581ea52de2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "15df19852991220556b4462a366269b8e15278eb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.1.2/spring-context-6.1.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-context@6.1.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework:spring-context:6.1.2",
+      "supplier": "Organization: Spring IO",
+      "versionInfo": "6.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a247bd81df8fa9c6a002b95969692bfd146a70b2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e47b66833ebec281374d55b4e36352b80fe3fa64c94252481a8a7e8d31d9d601"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.1.2/spring-aop-6.1.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-aop@6.1.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework:spring-aop:6.1.2",
+      "supplier": "Organization: Spring IO",
+      "versionInfo": "6.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "742baa41c1b0282ef01b3d542dc1b1de71db2578bd9ddd9a7d57fb191234b194"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "abf52f2254975a3b1e95b2b63fb8b01d891cdc51"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.1.2/spring-beans-6.1.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-beans@6.1.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework:spring-beans:6.1.2",
+      "supplier": "Organization: Spring IO",
+      "versionInfo": "6.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0fef5fb19f375a8632d2a117f4b3aed059b959e9693e90c3b7f57b7cad2f9e0b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "98786397734b27b7c8843a6b01a7fa34d40d6806"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.1.2/spring-expression-6.1.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-expression@6.1.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework:spring-expression:6.1.2",
+      "supplier": "Organization: Spring IO",
+      "versionInfo": "6.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd10",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "48f6607b248e8b77ee9f7b3934f70124471daf947b30480c1b9c0e9d9f996c83"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fbd0e0e9b6a36effd53e0eee35b050ed1f548ae5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.12.1/micrometer-observation-1.12.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-observation@1.12.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "io.micrometer:micrometer-observation:1.12.1",
+      "supplier": "Person: Tommy Ludwig (tludwig@vmware.com)",
+      "versionInfo": "1.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "295785b04cd4de7711bb16730da5e9829bac55a8879d52120625dac6c89904ed"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "abcc6b294e60582afdfae6c559c94ad1d412ce2d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.12.1/micrometer-commons-1.12.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-commons@1.12.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "io.micrometer:micrometer-commons:1.12.1",
+      "supplier": "Person: Tommy Ludwig (tludwig@vmware.com)",
+      "versionInfo": "1.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b100d2d21d45dddd740d496357ca6f3813d777d0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "371f0f36d226a8db972c37c73f0a0896ee4d3e77c29b54dbce8a64af731a6e53"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.2.1/spring-boot-autoconfigure-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-autoconfigure:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd13",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0df8ec78dc87885298998ca3c9bd603ee7bfe5b8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0b7e411cfc44a15fc63a36cd05a73b34c3558f1b06e4f297b1919361b8a351a7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.2.1/spring-boot-starter-logging-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-starter-logging:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd14",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8e832f7263ca606ae36dabb2d8b24c2f43d82cf634e81dad9d1640fa6ee3c596"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d98bc162275134cdf1518774da4a2a17ef6fb94d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic@1.4.14?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(EPL-1.0 AND LicenseRef-gnrtd0)",
+      "licenseInfoFromFiles": [],
+      "name": "ch.qos.logback:logback-classic:1.4.14",
+      "supplier": "Organization: QOS.ch",
+      "versionInfo": "1.4.14"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd15",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f8c2f05f42530b1852739507c1792f0080167850ed8f396444c6913d6617a293"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4d3c2248219ac0effeb380ed4c5280a80bf395e8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-core@1.4.14?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(EPL-1.0 AND LicenseRef-gnrtd0)",
+      "licenseInfoFromFiles": [],
+      "name": "ch.qos.logback:logback-core:1.4.14",
+      "supplier": "Organization: QOS.ch",
+      "versionInfo": "1.4.14"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd16",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7cf2726fdcfbc8610f9a71fb3ed639871f315340"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.9?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [],
+      "name": "org.slf4j:slf4j-api:2.0.9",
+      "supplier": "Organization: QOS.ch",
+      "versionInfo": "2.0.9"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd17",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d77b2ba81711ed596cd797cc2b5b5bd7409d841c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "de143c565ba78b0f2c0be58f132c7aec75e6e1a10845ebda5a4f17c2a35d9990"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.21.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.apache.logging.log4j:log4j-to-slf4j:2.21.1",
+      "supplier": "Organization: The Apache Software Foundation",
+      "versionInfo": "2.21.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd18",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1db48e180881bef1deb502022006a025a248d8f6a26186789b0c7ce487c602d6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "74c65e87b9ce1694a01524e192d7be989ba70486"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-api@2.21.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.apache.logging.log4j:log4j-api:2.21.1",
+      "supplier": "Organization: The Apache Software Foundation",
+      "versionInfo": "2.21.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd19",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "69b4e5f8d3bd3f6f54367d19f2c1ee95dd5877802f12d868282e218dd76b00bf"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "09ef7c70b248185845f013f49a33ff9ca65b7975"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.9?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [],
+      "name": "org.slf4j:jul-to-slf4j:2.0.9",
+      "supplier": "Organization: QOS.ch",
+      "versionInfo": "2.0.9"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd20",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5f65fdaf424eee2b55e1d882ba9bb376be93fb09b37b808be6e22e8851c909fe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48b9bda22b091b1f48b13af03fe36db3be6e1ae3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(GPL-2.0-with-classpath-exception AND EPL-2.0)",
+      "licenseInfoFromFiles": [],
+      "name": "jakarta.annotation:jakarta.annotation-api:2.1.1",
+      "supplier": "Organization: Eclipse Foundation",
+      "versionInfo": "2.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd21",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3af797a25458550a16bf89acc8e4ab2b7f2bfce0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1467931448a0817696ae2805b7b8b20bfb082652bf9c4efaed528930dc49389b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.yaml:snakeyaml:2.2",
+      "supplier": "Person: Andrey Somov (public.somov@gmail.com)",
+      "versionInfo": "2.2"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd22",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3850d85c0f6074fe9286dece9b44f8bded5e194e9b816860735e0fc728173d65"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0fe81034352a15731322fba326447ba70bfa3962"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.2.1/spring-boot-actuator-autoconfigure-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-actuator-autoconfigure:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c3c53333a2172a80678bda1803e39cff45bec6ae3e9c7d4f44a81ec4e2ab18dc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a734bc2c47a9453c4efa772461a3aeb273c010d9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.3?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "com.fasterxml.jackson.core:jackson-databind:2.15.3",
+      "supplier": "Organization: FasterXML",
+      "versionInfo": "2.15.3"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd24",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aae865c3d88256d61b11523cb1e88bd48d5b9ad5855fa1fc859504fd2204708a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "79baf4e605eb3bbb60b1c475d44a7aecceea1d60"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.3?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "com.fasterxml.jackson.core:jackson-annotations:2.15.3",
+      "supplier": "Organization: FasterXML",
+      "versionInfo": "2.15.3"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd25",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51fab7aad51ed588482edc507fd542747936c5094d1ab76ed21ddb63b96b610d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "60d600567c1862840397bf9ff5a92398edc5797b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.3?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "com.fasterxml.jackson.core:jackson-core:2.15.3",
+      "supplier": "Organization: FasterXML",
+      "versionInfo": "2.15.3"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd26",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "29995d3677f72dde74bf32bbf268b96beb952492b742d93f4c70af6c44b2156e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "80158cb020c7bd4e4ba94d8d752a65729dc943b2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.15.3?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.3",
+      "supplier": "Organization: FasterXML",
+      "versionInfo": "2.15.3"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd27",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4a20a0e104931bfa72f24ef358c2eb63f1ef2aaf"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bea1d78009ebc4e5d54918a3f7aec5da9fbd09f662c191a217ffcf37e8527c5e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.15.3?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.3",
+      "supplier": "Organization: FasterXML",
+      "versionInfo": "2.15.3"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd28",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "baf1a3156a23cb407e05374161a07ed8560f78a7ae249955de04a9a2fa2d0f2b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8d251b90c5358677e7d8161e0c2488e6f84f49da"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.15.3?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.3",
+      "supplier": "Organization: FasterXML",
+      "versionInfo": "2.15.3"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd29",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b870c0a601dc0d6d98b33a6b59d41799285848de267f7cfb466a6f167f30c4d2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9089b9fff0c17eae54aabc466b78e010eac3a04f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.2.1/spring-boot-actuator-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-actuator@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-actuator:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd30",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e8c66d7aee8fbc8a9d2e15c6c53df92bd7ecbf94f1ca8562d62d9a2693aa4633"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2dc7257970669fa45e342b0b36902d868af2dbed"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.12.1/micrometer-jakarta9-1.12.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-jakarta9@1.12.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "io.micrometer:micrometer-jakarta9:1.12.1",
+      "supplier": "Person: Tommy Ludwig (tludwig@vmware.com)",
+      "versionInfo": "1.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd31",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b72e9a2f26355ecb8ababa0148a5c3c4ac648f14"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "97d0a5309e9c584f4dec6f549a383ae25d8727abff43cff8e0b90580ee797b67"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.12.1/micrometer-core-1.12.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-core@1.12.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "io.micrometer:micrometer-core:1.12.1",
+      "supplier": "Person: Tommy Ludwig (tludwig@vmware.com)",
+      "versionInfo": "1.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd32",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6eb7552156e0d517ae80cc2247be1427c8d90452"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9b47fbae444feaac4b7e04f0ea294569e4bc282bc69d8c2ce2ac3f23577281e2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(BSD-2-Clause AND LicenseRef-gnrtd1)",
+      "licenseInfoFromFiles": [],
+      "name": "org.hdrhistogram:HdrHistogram:2.1.12",
+      "supplier": "Person: Gil Tene",
+      "versionInfo": "2.1.12"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd33",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a32a9ffa06b2f4e01c5360f8f9df7bc5d9454a5d373cd8f361347fa5a57165ec"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "769c0b82cb2421c8256300e907298a9410a2a3d3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.latencyutils/LatencyUtils@2.0.3?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LicenseRef-gnrtd1",
+      "licenseInfoFromFiles": [],
+      "name": "org.latencyutils:LatencyUtils:2.0.3",
+      "supplier": "Person: Gil Tene",
+      "versionInfo": "2.0.3"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd34",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e27e36d4222fd4d589e634e1c7f5f09f0316147c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f14d3a4a0ae3ad634bcfa07117542001c1789c0bdce3504baee8f2bc45ef006"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.2.1/spring-boot-starter-web-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-web@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-starter-web:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd35",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "572f1a4171dff33b5a9260bbd704473442adf24f890386abe33ecc18c047836a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ecda50de20ab6d3c49ea30df4c1982048f5d31ac"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.2.1/spring-boot-starter-json-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-json@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-starter-json:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd36",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f2012a24c6213f155b6bc69aa3ecafe2a373c1e92a26dbecc62ff575c3a1fb3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0f26b98778376cc39afb04fbb6fdd7543bef89f2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.1.2/spring-web-6.1.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-web@6.1.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework:spring-web:6.1.2",
+      "supplier": "Organization: Spring IO",
+      "versionInfo": "6.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd37",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d8efc48034015522958cb3fea5831b4cbcd4fcfb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf93da73a8fb4caf9fa68e4f3b97adcc9dbb8c79220a828b3d70ecf12d410117"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.2.1/spring-boot-starter-tomcat-3.2.1.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@3.2.1?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework.boot:spring-boot-starter-tomcat:3.2.1",
+      "supplier": "Organization: VMware, Inc.",
+      "versionInfo": "3.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd38",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5d70fa6ae0548f89fb4c070423ecc2db050cebf248b0d5f3f2294375a6762382"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5b9185ee002f9e194d2cb21ddcf8bc5f3d4a69da"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.17/tomcat-embed-core-10.1.17.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@10.1.17?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.apache.tomcat.embed:tomcat-embed-core:10.1.17",
+      "supplier": "Organization: NOASSERTION",
+      "versionInfo": "10.1.17"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd39",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bac12b9c993a9181ffc88ea8ba085491a482729e64ae105750a7475a7b85e549"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ad7312421535d7d3aabe0f541e852baccb59726"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.17/tomcat-embed-el-10.1.17.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@10.1.17?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.apache.tomcat.embed:tomcat-embed-el:10.1.17",
+      "supplier": "Organization: NOASSERTION",
+      "versionInfo": "10.1.17"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd40",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "00b16e507bea58c6e8a7cb64f129cd2ffd62da092a67a693a8a6af1efdc7dd6d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ee2f34b51144b75878c9b42768e17de8fbdc74b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.17/tomcat-embed-websocket-10.1.17.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@10.1.17?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.17",
+      "supplier": "Organization: NOASSERTION",
+      "versionInfo": "10.1.17"
+    },
+    {
+      "SPDXID": "SPDXRef-gnrtd41",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "de42748c3c94c06131c3fe97d81f5c685e4492b9e986baa88af768bb12ea7738"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "906ee995372076e22ef9666d8628845c75bf5c42"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.2/spring-webmvc-6.1.2.jar",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-webmvc@6.1.2?repository_url=repo.maven.apache.org%2Fmaven2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [],
+      "name": "org.springframework:spring-webmvc:6.1.2",
+      "supplier": "Organization: Spring IO",
+      "versionInfo": "6.1.2"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-gnrtd0"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd34"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd1"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd22"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd2"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd30"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd13"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd12"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd21"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd20"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd3"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd4"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd6"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd5"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd9"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd7"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd10"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd8"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd10",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd11"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd13",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd14"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd13",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd17"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd13",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd19"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd14",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd15"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd14",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd16"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd17",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd18"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd22",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd29"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd22",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd23"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd23",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd24"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd24",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd27"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd24",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd26"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd24",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd25"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd24",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd28"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd30",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd31"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd31",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd32"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd31",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd33"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd34",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd41"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd34",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd37"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd34",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd35"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd35",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd36"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd37",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd39"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd37",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd38"
+    },
+    {
+      "spdxElementId": "SPDXRef-gnrtd37",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gnrtd40"
+    }
+  ]
+}
