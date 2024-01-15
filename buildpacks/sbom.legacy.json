@@ -1,0 +1,297 @@
+[
+  {
+    "name": "helper",
+    "metadata": {
+      "layer": "helper",
+      "names": [
+        "ca-certificates-helper"
+      ],
+      "version": "3.6.6"
+    },
+    "buildpack": {
+      "id": "paketo-buildpacks/ca-certificates",
+      "version": "3.6.6"
+    }
+  },
+  {
+    "name": "jre",
+    "metadata": {
+      "layer": "jre",
+      "licenses": [
+        {
+          "type": "GPL-2.0 WITH Classpath-exception-2.0",
+          "uri": "https://openjdk.java.net/legal/gplv2+ce.html"
+        }
+      ],
+      "name": "BellSoft Liberica JRE",
+      "sha256": "26987ce3b87eb629a14045de760f0aec8bafc1c0a0be9881b9e0dadd1ee1b08b",
+      "stacks": [
+        "io.buildpacks.stacks.bionic",
+        "io.paketo.stacks.tiny",
+        "*"
+      ],
+      "uri": "https://github.com/bell-sw/Liberica/releases/download/17.0.9+11/bellsoft-jre17.0.9+11-linux-aarch64.tar.gz",
+      "version": "17.0.9"
+    },
+    "buildpack": {
+      "id": "paketo-buildpacks/bellsoft-liberica",
+      "version": "10.4.3"
+    }
+  },
+  {
+    "name": "helper",
+    "metadata": {
+      "layer": "helper",
+      "names": [
+        "active-processor-count",
+        "java-opts",
+        "jvm-heap",
+        "link-local-dns",
+        "memory-calculator",
+        "security-providers-configurer",
+        "jmx",
+        "jfr",
+        "openssl-certificate-loader",
+        "security-providers-classpath-9",
+        "debug-9",
+        "nmt"
+      ],
+      "version": "10.4.3"
+    },
+    "buildpack": {
+      "id": "paketo-buildpacks/bellsoft-liberica",
+      "version": "10.4.3"
+    }
+  },
+  {
+    "name": "dependencies",
+    "metadata": {
+      "dependencies": [
+        {
+          "name": "HdrHistogram",
+          "sha256": "9b47fbae444feaac4b7e04f0ea294569e4bc282bc69d8c2ce2ac3f23577281e2",
+          "version": "2.1.12"
+        },
+        {
+          "name": "LatencyUtils",
+          "sha256": "a32a9ffa06b2f4e01c5360f8f9df7bc5d9454a5d373cd8f361347fa5a57165ec",
+          "version": "2.0.3"
+        },
+        {
+          "name": "jackson-annotations",
+          "sha256": "aae865c3d88256d61b11523cb1e88bd48d5b9ad5855fa1fc859504fd2204708a",
+          "version": "2.15.3"
+        },
+        {
+          "name": "jackson-core",
+          "sha256": "51fab7aad51ed588482edc507fd542747936c5094d1ab76ed21ddb63b96b610d",
+          "version": "2.15.3"
+        },
+        {
+          "name": "jackson-databind",
+          "sha256": "c3c53333a2172a80678bda1803e39cff45bec6ae3e9c7d4f44a81ec4e2ab18dc",
+          "version": "2.15.3"
+        },
+        {
+          "name": "jackson-datatype-jdk8",
+          "sha256": "29995d3677f72dde74bf32bbf268b96beb952492b742d93f4c70af6c44b2156e",
+          "version": "2.15.3"
+        },
+        {
+          "name": "jackson-datatype-jsr310",
+          "sha256": "bea1d78009ebc4e5d54918a3f7aec5da9fbd09f662c191a217ffcf37e8527c5e",
+          "version": "2.15.3"
+        },
+        {
+          "name": "jackson-module-parameter-names",
+          "sha256": "baf1a3156a23cb407e05374161a07ed8560f78a7ae249955de04a9a2fa2d0f2b",
+          "version": "2.15.3"
+        },
+        {
+          "name": "jakarta.annotation-api",
+          "sha256": "5f65fdaf424eee2b55e1d882ba9bb376be93fb09b37b808be6e22e8851c909fe",
+          "version": "2.1.1"
+        },
+        {
+          "name": "jul-to-slf4j",
+          "sha256": "69b4e5f8d3bd3f6f54367d19f2c1ee95dd5877802f12d868282e218dd76b00bf",
+          "version": "2.0.9"
+        },
+        {
+          "name": "log4j-api",
+          "sha256": "1db48e180881bef1deb502022006a025a248d8f6a26186789b0c7ce487c602d6",
+          "version": "2.21.1"
+        },
+        {
+          "name": "log4j-to-slf4j",
+          "sha256": "de143c565ba78b0f2c0be58f132c7aec75e6e1a10845ebda5a4f17c2a35d9990",
+          "version": "2.21.1"
+        },
+        {
+          "name": "logback-classic",
+          "sha256": "8e832f7263ca606ae36dabb2d8b24c2f43d82cf634e81dad9d1640fa6ee3c596",
+          "version": "1.4.14"
+        },
+        {
+          "name": "logback-core",
+          "sha256": "f8c2f05f42530b1852739507c1792f0080167850ed8f396444c6913d6617a293",
+          "version": "1.4.14"
+        },
+        {
+          "name": "micrometer-commons",
+          "sha256": "295785b04cd4de7711bb16730da5e9829bac55a8879d52120625dac6c89904ed",
+          "version": "1.12.1"
+        },
+        {
+          "name": "micrometer-core",
+          "sha256": "97d0a5309e9c584f4dec6f549a383ae25d8727abff43cff8e0b90580ee797b67",
+          "version": "1.12.1"
+        },
+        {
+          "name": "micrometer-jakarta9",
+          "sha256": "e8c66d7aee8fbc8a9d2e15c6c53df92bd7ecbf94f1ca8562d62d9a2693aa4633",
+          "version": "1.12.1"
+        },
+        {
+          "name": "micrometer-observation",
+          "sha256": "48f6607b248e8b77ee9f7b3934f70124471daf947b30480c1b9c0e9d9f996c83",
+          "version": "1.12.1"
+        },
+        {
+          "name": "slf4j-api",
+          "sha256": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c",
+          "version": "2.0.9"
+        },
+        {
+          "name": "snakeyaml",
+          "sha256": "1467931448a0817696ae2805b7b8b20bfb082652bf9c4efaed528930dc49389b",
+          "version": "2.2"
+        },
+        {
+          "name": "spring-aop",
+          "sha256": "e47b66833ebec281374d55b4e36352b80fe3fa64c94252481a8a7e8d31d9d601",
+          "version": "6.1.2"
+        },
+        {
+          "name": "spring-beans",
+          "sha256": "742baa41c1b0282ef01b3d542dc1b1de71db2578bd9ddd9a7d57fb191234b194",
+          "version": "6.1.2"
+        },
+        {
+          "name": "spring-boot",
+          "sha256": "6fde604399114e77b12519b3d117117c607cb73b89a88800856fb0e0cc82ea7a",
+          "version": "3.2.1"
+        },
+        {
+          "name": "spring-boot-actuator",
+          "sha256": "b870c0a601dc0d6d98b33a6b59d41799285848de267f7cfb466a6f167f30c4d2",
+          "version": "3.2.1"
+        },
+        {
+          "name": "spring-boot-actuator-autoconfigure",
+          "sha256": "3850d85c0f6074fe9286dece9b44f8bded5e194e9b816860735e0fc728173d65",
+          "version": "3.2.1"
+        },
+        {
+          "name": "spring-boot-autoconfigure",
+          "sha256": "371f0f36d226a8db972c37c73f0a0896ee4d3e77c29b54dbce8a64af731a6e53",
+          "version": "3.2.1"
+        },
+        {
+          "name": "spring-boot-jarmode-layertools",
+          "sha256": "3e465648a818ddf2e1b292344140d45e32a89f04c2716f46578c98bf66d439b2",
+          "version": "3.2.1"
+        },
+        {
+          "name": "spring-context",
+          "sha256": "af22a435469956415bbee873de6c05995ef12f2d29622abf510a94581ea52de2",
+          "version": "6.1.2"
+        },
+        {
+          "name": "spring-core",
+          "sha256": "8e3f7378e98c26500bdb5ecd6865778f57a22787eb2f11b9bd5fb8e438a0c631",
+          "version": "6.1.2"
+        },
+        {
+          "name": "spring-expression",
+          "sha256": "0fef5fb19f375a8632d2a117f4b3aed059b959e9693e90c3b7f57b7cad2f9e0b",
+          "version": "6.1.2"
+        },
+        {
+          "name": "spring-jcl",
+          "sha256": "eb9ebadb1581f0fe598216f7cf032a3b44a84c96de06ffa8d6f41bcc47305134",
+          "version": "6.1.2"
+        },
+        {
+          "name": "spring-web",
+          "sha256": "3f2012a24c6213f155b6bc69aa3ecafe2a373c1e92a26dbecc62ff575c3a1fb3",
+          "version": "6.1.2"
+        },
+        {
+          "name": "spring-webmvc",
+          "sha256": "de42748c3c94c06131c3fe97d81f5c685e4492b9e986baa88af768bb12ea7738",
+          "version": "6.1.2"
+        },
+        {
+          "name": "tomcat-embed-core",
+          "sha256": "5d70fa6ae0548f89fb4c070423ecc2db050cebf248b0d5f3f2294375a6762382",
+          "version": "10.1.17"
+        },
+        {
+          "name": "tomcat-embed-el",
+          "sha256": "bac12b9c993a9181ffc88ea8ba085491a482729e64ae105750a7475a7b85e549",
+          "version": "10.1.17"
+        },
+        {
+          "name": "tomcat-embed-websocket",
+          "sha256": "00b16e507bea58c6e8a7cb64f129cd2ffd62da092a67a693a8a6af1efdc7dd6d",
+          "version": "10.1.17"
+        }
+      ],
+      "layer": "application"
+    },
+    "buildpack": {
+      "id": "paketo-buildpacks/spring-boot",
+      "version": "5.27.6"
+    }
+  },
+  {
+    "name": "helper",
+    "metadata": {
+      "layer": "helper",
+      "names": [
+        "spring-cloud-bindings"
+      ],
+      "version": "5.27.6"
+    },
+    "buildpack": {
+      "id": "paketo-buildpacks/spring-boot",
+      "version": "5.27.6"
+    }
+  },
+  {
+    "name": "spring-cloud-bindings",
+    "metadata": {
+      "layer": "spring-cloud-bindings",
+      "licenses": [
+        {
+          "type": "Apache-2.0",
+          "uri": "https://github.com/spring-cloud/spring-cloud-bindings/blob/main/LICENSE"
+        }
+      ],
+      "name": "Spring Cloud Bindings",
+      "sha256": "dab47967bffb29c5b4c41653e9741b6ca15cde483926d7f9d0a04956247fb680",
+      "stacks": [
+        "io.buildpacks.stacks.bionic",
+        "io.paketo.stacks.tiny",
+        "*"
+      ],
+      "uri": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-bindings/2.0.2/spring-cloud-bindings-2.0.2.jar",
+      "version": "2.0.2"
+    },
+    "buildpack": {
+      "id": "paketo-buildpacks/spring-boot",
+      "version": "5.27.6"
+    }
+  }
+]
