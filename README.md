@@ -13,7 +13,7 @@ spdxSbom {
 }
 ```
 
-to build file. Then run `gradle spdxSbom` to generate the JSON. Looks like [this](release.spdx.json).
+to the build file. Then run `gradle spdxSbom` to generate the JSON. Looks like [this](release.spdx.json).
 
 To automatically include it in the JAR file:
 
@@ -50,7 +50,7 @@ Add
 </plugin>
 ```
 
-It will be automatically included in the Boot JAR as it runs in the compile phase and the file is written in the classes output directory.
+to the build file. It will be automatically included in the Boot JAR as it runs in the compile phase and the file is written in the classes output directory.
 
 ## Mime Type
 
@@ -70,7 +70,7 @@ cyclonedxBom {
 }
 ```
 
-then run `gradle cyclonedxBom`.
+to the build file. Then run `gradle cyclonedxBom`. Looks like [this](bom.json).
 
 To automatically include it in the JAR file:
 
@@ -84,6 +84,8 @@ tasks.named("bootJar") {
 ```
 
 ## Maven
+
+Add 
 
 ```
 <plugin>
@@ -105,7 +107,7 @@ tasks.named("bootJar") {
 </plugin>
 ```
 
-It will be automatically included in the Boot JAR as it runs in the compile phase and the file is written in the classes output directory.
+to the build file. It will be automatically included in the Boot JAR as it runs in the compile phase and the file is written in the classes output directory.
 
 ## Mime type
 
